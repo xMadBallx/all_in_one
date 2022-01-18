@@ -1,0 +1,38 @@
+
+
+div {
+    width: 300px;
+    height: auto;
+    background-color: rgb(231, 230, 230);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+ol li {
+    list-style: circle;
+}
+
+ul li {
+    list-style: none;
+}
+
+hr {
+    border: dashed lightgray;
+}
+
+hr.section {
+    border: dashed rgb(243, 243, 243);
+}
+
+select {
+    border-style: none;
+    background-color: rgb(231, 230, 230);
+}
