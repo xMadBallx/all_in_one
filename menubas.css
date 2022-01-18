@@ -1,0 +1,27 @@
+h5 {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+}
+
+section {
+    width: 100%;
+}
+
+section div {
+    display: flex;
+    width: 33%;
+}
+
+section.menu div {
+    border: solid;
+    border-radius: 11px; 
+    border-color: rgb(247, 243, 243);
+    justify-content: left;
+}
