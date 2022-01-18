@@ -1,0 +1,30 @@
+@mixin flex{
+    display: flex;
+
+}
+
+@mixin list{
+    list-style: none;
+}
+
+nav{
+    background-color: rgb(71, 70, 70);
+    @include flex;
+    section{
+        div.reserv {
+            color: rgb(83, 81, 81)
+        }
+        
+        ul{
+            @include flex
+            li{
+                list-style: none;
+            }
+        }
+    }
+    section{
+        div.details{
+            justify-content: flex-end;
+        }
+    }
+}
